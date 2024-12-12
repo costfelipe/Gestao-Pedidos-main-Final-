@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garçom</title>
+    <link rel="stylesheet" href="css/garcom.css">
+    <link rel="shortcut icon" href="imagens/favicon-order.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Barra Lateral -->
+    <div class="sidebar" id="sidebar">
+        <button class="toggle-btn" id="toggle-btn">☰</button>
+        <ul class="menu">
+            <li><a href="pedido.html"><span>Pedidos</span></a></li>
+            <li><a href="garcom.html"><span>Garçom</span></a></li>
+            <li><a href="cozinha.html"><span>Cozinha</span></a></li>
+        </ul>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo"></div>
+    </header>
+
+    <!-- Container dos Pedidos -->
+    <div id="pedidos-container">
+        <h1>Pedidos Recentes</h1>
+        <!-- Botão Limpar -->
+        <button id="limpar-pedidos" class="limpar-btn">Limpar</button>
+        <!-- Pedidos serão carregados dinamicamente -->
+    </div>
+
+    <script src="js/garcom.js"></script>
+    <script src="js/menuPedido.js"></script>
+</body>
+</html>
